@@ -13,6 +13,7 @@ int codelen(char *code){
         len++;
     }
     return len;
+    printf("Code length");
 }
 
 //to concatenate 0's and 1's as we backtrack from leaf to root
