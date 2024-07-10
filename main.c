@@ -4,8 +4,8 @@
 #include <stdlib.h>
 
 // Define image dimensions
-#define WIDTH 8
-#define HEIGHT 8
+#define WIDTH 64
+#define HEIGHT 64
 
 // Function to save an image in PNG format
 void saveImage(const char* filename, unsigned char image[HEIGHT][WIDTH]) {
